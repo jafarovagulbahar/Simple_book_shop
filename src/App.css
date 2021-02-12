@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+}
+
+.App > h1 {
+  font-size: 22px;
+  color: rgb(37, 20, 20);
+  padding: 3px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.App > h1 > img {
+  width: 20px;
+}
+
+.App > div > h2 {
+  font-size: 18px;
+ 
+}
+.book {
+  transition: all 0.5s;
+}
+.bookListContainer{
+ margin: auto;
+ text-align: center;
+ margin-left: 0px !important;
+ margin-right: 0px !important;
+}
+
+.book img {
+  width: 200px;
+  padding: 0 10px 0 0;
+  transform: rotate(-10deg);
+	transition: transform 0.3s ease-out;
+  box-shadow: -25px 45px 30px -39px #000;
+  position: relative;
+  background-color:#faf6f6;
+}
+
+.book img:hover{
+  transform: rotate(0deg);
+}
+.bookDesc{
+  margin-top: 30px;
+  margin-bottom: 40px;
+
+}
+.carouselStyle{
+  height: 500px;
+}
+.carouselStyle img{
+  height: 500px;
+}
+
